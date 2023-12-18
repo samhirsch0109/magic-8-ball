@@ -13,22 +13,23 @@ function shakeMagic8Ball() {
     }
 
     const randomNumber = Math.floor(Math.random() * 8);
-    let answer, image, color;
+    let answer, image, color, backgroundColor;
 
     switch(randomNumber){
         case 0:
-            answer ="yes";
-            image ="yes-image";
+            answer ="YES";
+            image ="img/smiley.png";
             color = "text-success";
+            backgroundColor = "bg-info";
             break;
             case 1:
                 answer = "No";
-                image = "no-image.jpg" //change this!!;
+                image = "img/thumbsdown.png" //change this!!;
                 color = "text-danger";
                 break;
             case 2:
                 answer = "Ask again later";
-                image = "later-image.jpg" //change this!!;
+                image = "img/askagain.jpg" //change this!!;
                 color = "text-secondary";
                 break;
             case 3:
