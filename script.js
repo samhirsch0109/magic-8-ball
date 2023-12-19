@@ -17,43 +17,43 @@ function shakeMagic8Ball() {
 
     switch(randomNumber){
         case 0:
-            answer ="YES";
+            answer ="";
             image ="img/yes.png";
             color = "text-success";
             backgroundColor = "bg-info";
             break;
             case 1:
-                answer = "No";
+                answer = "";
                 image = "img/no.png" //change this!!;
                 color = "text-danger";
                 break;
             case 2:
-                answer = "Ask again later";
+                answer = "";
                 image = "img/askagain.png" //change this!!;
                 color = "text-secondary";
                 break;
             case 3:
-                answer = "Maybe";
+                answer = "";
                 image = "img/maybe.png";//change this!!;
                 color = "text-warning";
                 break;
             case 4:
-                answer = "Cannot predict now";
+                answer = "";
                 image = "img/cannotpredict.png";//change this!!;
                 color = "text-muted";
                 break;
             case 5:
-                answer = "Don't count on it";
+                answer = "";
                 image = "img/dontcountonit.png";//change this!!;
                 color = "text-danger";
                 break;
             case 6:
-                answer = "Most likely";
-                image = "img/thumbsup.png";//change this!!;
+                answer = "";
+                image = "img/mostlikely.png";//change this!!;
                 color = "text-success";
                 break;
             case 7:
-                answer = "Outlook not so good";
+                answer = "";
                 image = "img/outlooknotgood.png";//change this!!;
                 color = "text-danger";
                 break;
