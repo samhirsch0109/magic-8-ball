@@ -34,27 +34,27 @@ function shakeMagic8Ball() {
                 break;
             case 3:
                 answer = "Maybe";
-                image = "maybe-image.jpg";//change this!!;
+                image = "img/maybe.png";//change this!!;
                 color = "text-warning";
                 break;
             case 4:
                 answer = "Cannot predict now";
-                image = "cannot-predict-image.jpg";//change this!!;
+                image = "img/cannotpredict.jpg";//change this!!;
                 color = "text-muted";
                 break;
             case 5:
                 answer = "Don't count on it";
-                image = "dont-count-on-it-image.jpg";//change this!!;
+                image = "img/dontcountonit.png";//change this!!;
                 color = "text-danger";
                 break;
             case 6:
                 answer = "Most likely";
-                image = "most-likely-image.jpg";//change this!!;
+                image = "img/thumbsup.png";//change this!!;
                 color = "text-success";
                 break;
             case 7:
                 answer = "Outlook not so good";
-                image = "outlook-not-good-image.jpg";//change this!!;
+                image = "img/outlooknotgood.png";//change this!!;
                 color = "text-danger";
                 break;
             default:
