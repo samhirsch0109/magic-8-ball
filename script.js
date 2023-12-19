@@ -18,18 +18,18 @@ function shakeMagic8Ball() {
     switch(randomNumber){
         case 0:
             answer ="YES";
-            image ="img/smiley.png";
+            image ="img/yes.png";
             color = "text-success";
             backgroundColor = "bg-info";
             break;
             case 1:
                 answer = "No";
-                image = "img/thumbsdown.png" //change this!!;
+                image = "img/no.png" //change this!!;
                 color = "text-danger";
                 break;
             case 2:
                 answer = "Ask again later";
-                image = "img/askagain.jpg" //change this!!;
+                image = "img/askagain.png" //change this!!;
                 color = "text-secondary";
                 break;
             case 3:
@@ -39,7 +39,7 @@ function shakeMagic8Ball() {
                 break;
             case 4:
                 answer = "Cannot predict now";
-                image = "img/cannotpredict.jpg";//change this!!;
+                image = "img/cannotpredict.png";//change this!!;
                 color = "text-muted";
                 break;
             case 5:
